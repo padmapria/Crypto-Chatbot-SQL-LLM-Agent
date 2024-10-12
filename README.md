@@ -1,4 +1,5 @@
 # LLM SQL Agent
+### Ask, analyze, and act on real-time cryptocurrency data 💰
 A conversational AI agent that interacts with a SQL database to provide information on cryptocurrencies.
 
 ##  Overview
