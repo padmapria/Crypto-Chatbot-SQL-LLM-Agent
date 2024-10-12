@@ -1,4 +1,4 @@
-# LLM SQL Agent
+# Crypto-Chatbot-SQL-LLM-Agent
 ### Ask, analyze, and act on real-time cryptocurrency data 💰
 A conversational AI agent that interacts with a SQL database to provide information on cryptocurrencies.
 
@@ -75,8 +75,8 @@ By using the LLM SQL Agent application, users can unlock these benefits and impr
 Generate your OpenAI API key here: [Click Here](https://platform.openai.com/account/api-keys)
 
 1. Clone this git repository from command prompt<br/>
-git clone https://github.com/padmapria/llm_sql_agent.git    
-cd llm_sql_agent    
+git clone https://github.com/padmapria/Crypto-Chatbot-SQL-LLM-Agent.git    
+cd Crypto-Chatbot-SQL-LLM-Agent    
 
 2. Create a `.env` file inside both the 'app' folder and the notebooks folder and store the key as follows:     
 OPENAI_API_KEY=YOUR_API_KEY_HERE<br/>
