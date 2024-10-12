@@ -1,0 +1,6 @@
+langchain
+langchain_experimental
+langchain-openai
+pydantic-settings==2.5.2
+pandas
+mysql-connector

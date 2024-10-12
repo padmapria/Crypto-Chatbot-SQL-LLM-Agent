@@ -1,0 +1,24 @@
+version: '3'
+services:
+  db:          
+    container_name: rag_db_container
+    image: mysql:5.7
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root_pass
+      MYSQL_DATABASE: rag_db
+           
+  python-app:
+    build: 
+      context: ./app  # Correct path to the build context (where the Dockerfile is)
+      dockerfile: Dockerfile    # Correct Dockerfile path (directly in services/app)
+    container_name: app         
+    depends_on:
+      - db
+    ports:
+      - "8501:8501"             # Port mapping for Flask (adjust if necessary)
+    volumes:
+      - ./app:/app     # Correct volume mapping (assuming the source is in root services/app)
+    working_dir: /app           # Correct working directory inside the container
+    restart: unless-stopped

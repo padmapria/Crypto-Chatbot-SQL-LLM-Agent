@@ -1,0 +1,5 @@
+https://www.marketwatch.com/investing/cryptocurrency/dotusd/download-data?startDate=4/1/2024&endDate=9/30/2024
+https://www.marketwatch.com/investing/cryptocurrency/btcusd/download-data?startDate=4/1/2024&endDate=9/30/2024
+https://www.marketwatch.com/investing/cryptocurrency/ethusd/download-data?startDate=4/1/2024&endDate=9/30/2024
+https://www.marketwatch.com/investing/cryptocurrency/solusd/download-data?startDate=4/1/2024&endDate=9/30/2024
+https://www.marketwatch.com/investing/index/sti/downloaddatapartial?startdate=04/01/2024%2000:00:00&enddate=09/30/2024%2000:00:00&daterange=d30&frequency=p1d&csvdownload=true&downloadpartial=false&newdates=false&countrycode=sg
