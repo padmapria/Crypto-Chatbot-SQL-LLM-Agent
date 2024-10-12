@@ -1,4 +1,0 @@
-streamlit
-pandasai
-python-dotenv
-openai==0.28
