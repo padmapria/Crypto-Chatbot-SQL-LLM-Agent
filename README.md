@@ -100,4 +100,4 @@ http://localhost:8501
   ![streamlit_ui](images/sample_query.jpg)
 
 ### Acknowledgement
-I would like to extend my gratitude to Langchain team, OpenAI for providing access to their LLM model APIs..
+Thank you to Langchain team and OpenAI for providing access to their LLM model APIs.
