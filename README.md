@@ -18,6 +18,12 @@ This project leverages Large Language Models (LLMs) and SQL databases to create 
 - Python 3.x
 - Framework used : Langchain
 
+## Technologies Used
+- Data is downloaded from www.marketwatch.com
+- I tested this project on BTC, ETH, SOL and DOT.(Refer the data folder for the links)
+- Sample url for downloading btcusd file is as below 
+https://www.marketwatch.com/investing/cryptocurrency/btcusd/download-data?startDate=4/1/2024&endDate=9/30/2024
+
 ### Here are the advantages of using the LLM SQL Agent application:
 
 #### User Benefits
@@ -100,4 +106,4 @@ http://localhost:8501
   ![streamlit_ui](images/sample_query.jpg)
 
 ### Acknowledgement
-Thank you to Langchain team and OpenAI for providing access to their LLM model APIs.
+Thank you to www.marketwatch.com for the data, Langchain team and OpenAI for providing access to their LLM model APIs.
