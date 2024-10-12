@@ -2,7 +2,7 @@
 A conversational AI agent that interacts with a SQL database to provide information on cryptocurrencies.
 
 ##  Overview
-This project leverages Large Language Models (LLMs) and SQL databases to create a chat-based interface for querying cryptocurrency data.
+This project leverages Large Language Models (LLMs), SQL databases and StreamlitUI deployed in docker, to create a conversational AI chat-based interface for querying real-time cryptocurrency data, including prices, trends, and comparitive analysis.
 
 ## Features
 - Interact with a SQL database using natural language queries
