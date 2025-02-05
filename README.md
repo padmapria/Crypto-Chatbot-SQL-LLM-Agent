@@ -1,9 +1,17 @@
-# Crypto-Chatbot-SQL-LLM-Agent
+# Crypto-Chatbot-SQL-LLM-Agent :  An AI Agentic Crypto Advisor
 ### Ask, analyze, and act on real-time cryptocurrency data 💰
 A conversational AI agent that interacts with a SQL database to provide information on cryptocurrencies.
 
 ##  Overview
-This project uses LLMs, SQL databases, LangGraph, and Streamlit to build a chat interface for querying cryptocurrency data. LangGraph orchestrates the interaction between these components, managing the flow of information and handling fallback mechanisms to ensure robust query processing. The application is deployed in Docker..
+This project leverages cutting-edge technologies to build a conversational AI chat interface for querying cryptocurrency data. The tech stack includes:
+- Large Language Models (LLMs): Providing accurate and informative responses
+- SQL databases: Storing and managing cryptocurrency data
+- LangChain: Enabling Retrieval-Augmented Generation (RAG) for efficient query processing
+- LangGraph: Orchestrating the interaction between components, managing information flow, and handling fallback mechanisms for robust query processing
+- Query Generation: Automatically generating SQL queries based on user input, enabling seamless interaction with the database
+- Streamlit: Powering the interactive chat interface
+- Docker: Ensuring seamless deployment and containerization
+This innovative combination of technologies enables a scalable, efficient, and user-friendly chat interface for exploring cryptocurrency data.
 
 ## Features
 - Interact with a SQL database using natural language queries
@@ -12,13 +20,6 @@ This project uses LLMs, SQL databases, LangGraph, and Streamlit to build a chat 
 - Supports general knowledge queries with LLM
 - Built using LLMs for accurate and informative responses
 - Streamlit-based UI for easy user interaction
-  
-## Technologies Used
-- Large Language Models (LLMs) (OpenAI)
-- SQL databases (MySQL)
-- Streamlit for UI
-- Python 3.x
-- Framework used : Langchain, LangGraph
 
 ## Orchestration and Fallback Mechanisms
 LangGraph is used to orchestrate the interaction between the LLM, SQL database, and Streamlit UI. The graph defines the flow of information and handles fallback mechanisms to ensure robust query processing.
